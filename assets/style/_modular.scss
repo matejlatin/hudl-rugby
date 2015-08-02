@@ -1,0 +1,98 @@
+// Colors
+$colorHudlDark:		#222a30;
+$colorHudl:			#f8761f;
+$colorGrayLight:	#f6f6f6;
+$colorGrayMedium:	#ebebeb;
+$colorGray:			#a2a2a3;
+$colorBlack:		#414042;
+
+$linkNormal: 		#678bd5;
+$linkActive: 		#7198e9;
+$linkVisited: 		#6284ca;
+
+// Sizes
+$typeDefault:		15px;		// 16px
+$max-width:			900px;
+
+// Fonts
+$fontBody: 			"Open Sans", Helvetica, Sans-serif;
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css');
+
+.bold {
+	font-weight: 700;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatCenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.floatRight {
+	float: right;
+}
+
+// Border Box
+body, article, section, footer, header, div, input, nav, article ol, article ul {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+// Clearfix
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.table {
+	display: table;
+}
+
+.fullScreen {
+	height: 100%;
+	width: 100%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.bg-gray {
+	background: $colorGrayMedium;
+}
+
+.hide {
+	display: none;
+}
+
+// Buttons

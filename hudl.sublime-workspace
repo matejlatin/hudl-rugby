@@ -1,0 +1,516 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"backgroun",
+				"background-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nBracketHighlighter:\n------------------\n\n  # BracketHighlighter 2.8.0\n  \n  ## New\n  - ure.py has been removed in favor of backrefs which adds support for numerous backrefs in regex expressions.\n  - Regex back references for upper case and lower case classes in search via `\\c` and `\\l` and the inverse can be done with `\\L` and `\\C`.\n  - Quoting/escaping can be done with `\\Q...\\E`.\n  - Unicode properties can now use verbose names such as `\\p{Uppercase_Letter}`.\n  - Inverse Unicode property support via `\\P{Lu}` or `\\P{Uppercase_Letter}`.\n  - Unicode properties are now more compact and included directly in backrefs.  The unicode cache in the User folder is no longer needed and can be removed.\n  - Better ruby do block support.\n  - Bh_plugin settings for tag highlighting have been moved to `bh_tag.sublime-settings`.\n  - Tag settings have been exposed for defining single tags and self closing tags via `self_closing_tags` and `single_tags`.\n  - Better bracket support for AAAPackageDev's `yaml-tmlanguage` syntax format.\n  \n  ## Notes\n  You can safely delete `bh_unicode_properties.cache` from your `Packages/User` folder.\n  \n  Check out documentation for more information on the new extended back reference support.\n  \n  ",
+			"settings":
+			{
+				"buffer_size": 1278,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2118,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"new file",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet m",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/matejlatin/Mato/site/templates/wm.php",
+		"/Users/matejlatin/Better Web Type/CNAME",
+		"/Users/matejlatin/Mato/content/02-work/03-measuring-the-user-experience/article.txt",
+		"/Users/matejlatin/Mato/site/templates/about.php",
+		"/Users/matejlatin/Mato/site/snippets/header.php",
+		"/Users/matejlatin/Mato/site/templates/gac.php",
+		"/Users/matejlatin/Mato/site/templates/home.php",
+		"/Users/matejlatin/Mato/content/02-work/02-wondermags-redefining-a-medium/wm.txt",
+		"/Users/matejlatin/Mato/content/03-writings/17-creating-products-users-love/article.txt",
+		"/Users/matejlatin/Mato/content/02-work/04-solving-the-usability-problems/article.txt",
+		"/Users/matejlatin/Mato/.htaccess",
+		"/Users/matejlatin/Mato/assets/js/combined.js",
+		"/Users/matejlatin/Mato/assets/styles/combined.css",
+		"/Users/matejlatin/Mato/assets/styles/type.css",
+		"/Users/matejlatin/Mato/readme.mdown",
+		"/Users/matejlatin/Mato/mato.sublime-project",
+		"/Users/matejlatin/Mato/license.mdown",
+		"/Users/matejlatin/Mato/index.php",
+		"/Users/matejlatin/Mato/.gitignore",
+		"/Users/matejlatin/Mato/content/home/home.txt",
+		"/Users/matejlatin/jekyll-test/work.html",
+		"/Users/matejlatin/jekyll-test/css/main.scss",
+		"/Users/matejlatin/jekyll-test/_layouts/default.html",
+		"/Users/matejlatin/jekyll-test/_layouts/post.html",
+		"/Users/matejlatin/Mato/content/02-work/work.txt",
+		"/Users/matejlatin/Mato/content/02-work/01-web-and-ui-design-for-gac/gac.txt",
+		"/Users/matejlatin/MEGA/mato/Case Studies/wondermags/Blocks Animation/test-animation.html",
+		"/Users/matejlatin/MEGA/mato/Case Studies/wondermags/Blocks Animation/publish/web/test-animation.html",
+		"/Users/matejlatin/Mato/content/02-work/test-animation_edge.js",
+		"/Users/matejlatin/MEGA/mato/Case Studies/wondermags/Blocks Animation/edge_includes/edge.5.0.1.min.js",
+		"/Users/matejlatin/Mato/site/templates/article.php",
+		"/Users/matejlatin/Mato/content/03-writings/16-lean-ux-book-review/article.txt",
+		"/Users/matejlatin/app-test/data.json",
+		"/Users/matejlatin/hello/www/index.html",
+		"/Users/matejlatin/Mato/content/03-writings/15-elements-of-typographic-style-book-review/article.txt",
+		"/Users/matejlatin/grunt HTML project/index.html",
+		"/Users/matejlatin/grunt HTML project/assets/style/_modular.scss",
+		"/Users/matejlatin/grunt HTML project/assets/style/_typography.scss",
+		"/Users/matejlatin/Mato/content/01-about/about.txt",
+		"/Users/matejlatin/Mato/content/03-writings/14-designers-sublime-text-setup/article.txt",
+		"/Users/matejlatin/Library/Application Support/Sublime Text 3/Packages/User/Fetch.sublime-settings",
+		"/Users/matejlatin/Mato/text.html",
+		"/Users/matejlatin/Library/Application Support/Sublime Text 3/Packages/User/text.html",
+		"/Users/matejlatin/Mato/kirby/lib/template.php",
+		"/Users/matejlatin/Mato/kirby/parsers/markdown.extra.php",
+		"/Users/matejlatin/Mato/content/site.txt",
+		"/Users/matejlatin/Mato/kirby/changelog.mdown",
+		"/Users/matejlatin/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/matejlatin/Mato/content/03-writings/13-introducing-html5-book-review/article.txt",
+		"/Users/matejlatin/Mato/kirby/lib/helpers.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h3",
+			"wm",
+			"img",
+			"featured",
+			"700",
+			"article p",
+			"h2",
+			"h3",
+			"’",
+			"src",
+			"@$params['image']",
+			"imageMeta",
+			"figure",
+			"arrow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1278,
+								1278
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2000,
+								2000
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 381.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hudl.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wm.php",
+				"site/templates/wm.php"
+			],
+			[
+				"head",
+				"site/snippets/header.php"
+			],
+			[
+				"combin",
+				"assets/styles/combined.css"
+			],
+			[
+				".css",
+				"assets/styles/type.css"
+			],
+			[
+				"css",
+				"assets/styles/combined.css"
+			],
+			[
+				"gac",
+				"site/templates/gac.php"
+			],
+			[
+				"home",
+				"site/templates/home.php"
+			],
+			[
+				"wm.t",
+				"content/02-work/02-wondermags-redefining-a-medium/wm.txt"
+			],
+			[
+				"header",
+				"site/snippets/header.php"
+			],
+			[
+				"about",
+				"site/templates/about.php"
+			],
+			[
+				"ht",
+				".htaccess"
+			],
+			[
+				"",
+				".htaccess"
+			],
+			[
+				"heade",
+				"site/snippets/header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/BetterWebType/betterwebtype.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 237.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

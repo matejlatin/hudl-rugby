@@ -1,0 +1,297 @@
+body, html {
+	background: $colorGrayLight;
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	background: $colorHudlDark;
+	color: white;
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		max-width: 500px;
+	}
+
+	ul li {
+		display: inline;
+		padding: 9px 15px;
+	}
+
+	div {
+		float: left;
+	}
+}
+
+.logo {
+	padding: 12px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menus {
+	width: 100%;
+}
+
+.breadcrumbs,
+.result,
+.video,
+.tabs,
+.stats,
+footer {
+	max-width: $max-width;
+	margin: 0 auto;
+}
+
+.breadcrumbs {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: $colorGray;
+}
+
+.result {
+	padding: 30px 0;
+
+	table {
+		width: 90%;
+
+		td {
+			vertical-align: middle;
+		}
+	}
+
+	span {
+		padding: 10px 15px;
+	}
+}
+
+.video {
+	padding-bottom: 100px;
+}
+
+.stats {
+	margin-top: -54px;
+	text-align: center;
+	max-width: 800px;
+
+	input {
+		display: none;
+	}
+
+	label {
+		display: inline-block;
+		margin: 0 0;
+		padding: 15px 25px;
+		font-weight: 600;
+		text-align: center;
+		color: $colorGray;
+		border: 1px solid transparent;
+		position: relative;
+		transition: all 0.3s;
+	}
+
+	label:before {
+		font-family: fontawesome;
+		font-weight: normal;
+		margin-right: 10px;
+	}
+
+	label[for*='1']:before { content: '\f0c0'; }
+	label[for*='2']:before { content: '\f007'; }
+
+	label:hover {
+		color: #888;
+		cursor: pointer;
+	}
+
+	input:checked + label {
+		color: $colorBlack;
+		// border-bottom: 4px solid $colorHudl;
+	}
+
+	input:checked + label:after {
+		content: '';
+	    width: 100%;
+	    position: absolute;
+	    height: 4px;
+	    background: $colorHudl;
+	    left: 0;
+	    bottom: -2px;
+	}
+
+	#tab1:checked ~ #team-stats,
+	#tab2:checked ~ #player-stats {
+		display: block;
+	}
+
+	#team-stats,
+	#player-stats {
+		display: none;
+		transition: all 0.3s;
+	}
+
+	.stat {
+		text-align: left;
+	}
+}
+
+#player-stats, #team-stats {
+	padding: 50px 0 0;
+}
+
+.single-stat {
+	font-size: 25px;
+}
+
+.stat-name {
+	text-transform: uppercase;
+}
+
+// Accordion
+
+.accordion {
+  margin: 0 auto 100px;
+  list-style: none;
+  padding: 0;
+}
+.accordion li {
+  background: $colorGrayMedium;
+  position: relative;
+  margin-bottom: 3px;
+  transition: all 0.2s;
+}
+
+.accordion li a {
+	padding: 0 20px;
+	transition: all 0.2s;
+	box-sizing: border-box;
+
+	&.active {
+		background: $colorHudl;
+		color: white;
+	}
+}
+
+.accordion li:hover {
+	background: lighten( $colorGrayMedium, 1% );
+}
+.accordion li div {
+  display: none;
+  padding: 20px 15px;
+  background: $colorHudlDark;
+  color: white;
+}
+.accordion a {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 3;
+  font-size: 14px;
+  font-size: 0.875rem;
+  user-select: none;
+}
+// .accordion a:after {
+//   width: 8px;
+//   height: 8px;
+//   border-right: 1px solid #4a6e78;
+//   border-bottom: 1px solid #4a6e78;
+//   position: absolute;
+//   right: 10px;
+//   content: " ";
+//   top: 17px;
+//   transform: rotate(-45deg);
+//   -webkit-transition: all 0.2s ease-in-out;
+//   -moz-transition: all 0.2s ease-in-out;
+//   transition: all 0.2s ease-in-out;
+// }
+.accordion p {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 2;
+  padding: 10px;
+}
+
+a.active:after {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+ol.events {
+	list-style: none;
+	padding: 0;
+}
+
+.events li {
+	background: none;
+	margin: 0;
+	padding: 0 0 15px;
+
+	&:hover {
+		background: none;
+	}
+
+	strong {
+		background: lighten( $colorHudlDark, 10% );
+		padding: 2px 6px;
+		margin: 0 3px;
+	}
+
+	a {
+		color: white;
+		font-weight: normal;
+		text-decoration: none;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 15px;
+
+		&:hover {
+			color: darken( #fff, 15% );
+		}
+	}
+}
+
+.stat-events {
+	vertical-align: top;
+}
+
+footer {
+	padding: 2%;
+}
+
+.home-team, .away-team {
+	width: 49%;
+}
+
+.player {
+	padding: 0!important;
+	line-height: 1!important;
+	font-weight: normal!important;
+	font-size: 15px!important;
+
+	strong {
+		font-size: 24px;
+		margin: 0 10px 0 20px;
+	}
+}
+
+a.filter {
+	background: lighten( $colorHudlDark, 10% );
+	text-decoration: none;
+	color: lighten( $colorHudlDark, 50% );
+	font-weight: normal;
+	max-width: 100px;
+	text-align: center;
+	margin-bottom: 10px;
+
+	&:hover {
+		background: lighten( $colorHudlDark, 15% );
+	}
+}
